@@ -1,5 +1,9 @@
 # Prenylation Cleavage Prediction
 
+### Operating System
+
+Experiments were conducted on Ubuntu 18.04.4
+
 ### Getting started
 
 ```
@@ -20,5 +24,4 @@ pandas==0.24.2
 scikit-learn==0.21.2
 torch==1.7.1+cu101
 ```
-
 
