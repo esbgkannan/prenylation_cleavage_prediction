@@ -1,10 +1,10 @@
 # Prenylation Cleavage Prediction
 
-### Operating System
+## Operating System
 
-Experiments were conducted on Ubuntu 18.04.4
+Ubuntu 18.04.4
 
-### Getting started
+## Getting started
 
 ```
 # download this repository
@@ -16,7 +16,8 @@ wget https://www.dropbox.com/sh/5jutikv62u9v9ev/AACRyu2MODVU7HFtPd4lQyeea
 unzip AACRyu2MODVU7HFtPd4lQyeea
 rm AACRyu2MODVU7HFtPd4lQyeea
 ```
-### Python modules
+
+## Python modules
 
 ```
 numpy==1.15.4
@@ -24,4 +25,15 @@ pandas==0.24.2
 scikit-learn==0.21.2
 torch==1.7.1+cu101
 ```
+
+## Overview
+
+### Train & assess prediction models for prenylation
+training_prenylation.ipynb
+
+### Train & assess prediction models for cleavage
+training_cleavage.ipynb
+
+### Merge predictions to predict the pathway for a given Cxxx sequence
+merged_predictions.ipynb
 
