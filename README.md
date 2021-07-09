@@ -8,7 +8,7 @@ Ubuntu 18.04.4
 Use these commands to download the repository and the necesary inputs datasets.
 ```
 # download this repository
-git clone https://github.com/waylandy/prenylation_cleavage_prediction
+git clone https://github.com/esbgkannan/prenylation_cleavage_prediction
 cd prenylation_cleavage_prediction
 
 # download input files
